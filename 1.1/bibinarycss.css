@@ -1,0 +1,56 @@
+
+* {
+	background-color: black;
+	color: white;
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+.level1 {
+	font-weight: bold;
+	color: rgb(255, 255, 0);
+}
+
+.level2 {
+	font-weight: bold;
+	color: rgb(255, 159, 64);
+}
+
+.level3 {
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+}
+
+.level4 {
+	font-weight: bold;
+	color: rgb(223, 115, 255);
+}
+
+.level5 {
+	font-weight: bold;
+	color: rgb(0, 255, 255);
+}
+
+.level6 {
+	font-weight: bold;
+	color: rgb(0, 255, 0);
+}
+
+.screenshot {
+	border: 2px solid white;
+}
+
+
+

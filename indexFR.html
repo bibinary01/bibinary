@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="bibinarycss.css" />
+        <title>Bibinary</title>
+    </head>
+
+    <body>
+	<!-- info from settings-->
+
+	<h1><img class="screenshot" src="bibinary.png" alt="Bibinary" title="Bibinary" /></h1>
+	<h1>Bibinary</h1>
+
+	<ul>
+		<li><a href="#description">Description</a></li>
+		<li><a href="#rgpd">Gestion des données personnelles</a></li>
+		<li><a href="mailto:bibinary01@gmail.com">Contact</a></li>
+	</ul>
+
+	<h2 id="description">Description</h2>
+
+	<p>Bibinary est un jeu où on doit trouver le code binaire de nombres. Si si c'est divertissant.</p>
+	<p>Il y a différents niveaux, de A1 à F6. Pour passer au niveau suivant, il faut trouver 3 codes. La lettre indique le niveau d'aide dont on dispose pour trouver le code (cf. ci-dessous). Le chiffre augmente avec la taille du code à trouver.</p>
+	<ul>
+		<li><span class="level1">A1</span>, <span class="level2">A2</span>, <span class="level3">A3</span>, <span class="level4">A4</span>, <span class="level5">A5</span>, <span class="level6">A6</span> : le nombre obtenu avec le code courant est affiché, des popups décimales apparaissent, on a le droit de retourner les 0|1 autant qu'on veut.</li>
+		<li><span class="level1">B1</span>, <span class="level2">B2</span>, <span class="level3">B3</span>, <span class="level4">B4</span>, <span class="level5">B5</span>, <span class="level6">B6</span> : le nombre obtenu avec le code courant n'est plus affiché, des popups décimales apparaissent, on a le droit de retourner les 0|1 autant qu'on veut.</li>
+		<li><span class="level1">C1</span>, <span class="level2">C2</span>, <span class="level3">C3</span>, <span class="level4">C4</span>, <span class="level5">C5</span>, <span class="level6">C6</span> : le nombre obtenu avec le code courant n'est plus affiché, les popups décimales n'apparaissent plus, on a le droit de retourner les 0|1 autant qu'on veut.</li>
+		<li><span class="level1">D1</span>, <span class="level2">D2</span>, <span class="level3">D3</span>, <span class="level4">D4</span>, <span class="level5">D5</span>, <span class="level6">D6</span> : le nombre obtenu avec le code courant est affiché, des popups décimales apparaissent, si on retourne un 0|1 qui ne doit pas l'être, on a une pénalité de 10 secondes et un nouveau nombre apparait.</li>
+		<li><span class="level1">E1</span>, <span class="level2">E2</span>, <span class="level3">E3</span>, <span class="level4">E4</span>, <span class="level5">E5</span>, <span class="level6">E6</span> : le nombre obtenu avec le code courant n'est plus affiché, des popups décimales apparaissent, si on retourne un 0|1 qui ne doit pas l'être, on a une pénalité de 10 secondes et un nouveau nombre apparait.</li>
+		<li><span class="level1">F1</span>, <span class="level2">F2</span>, <span class="level3">F3</span>, <span class="level4">F4</span>, <span class="level5">F5</span>, <span class="level6">F6</span> : le nombre obtenu avec le code courant n'est plus affiché, les popups décimales n'apparaissent plus, si on retourne un 0|1 qui ne doit pas l'être, on a une pénalité de 10 secondes et un nouveau nombre apparait.</li>
+	</ul>
+	<p>Il y a deux modes : le mode temps et le mode infini. Dans le mode temps, on dispose d'un temps limité (40s) pour trouver un max de code binaire. On peut commencer au niveau qu'on veut (entre le plus bas et le plus haut déjà atteint). Dans le mode infini, on commence toujours du plus bas niveau et on doit aller aussi loin qu'on peut. On gagne quand on arrive à finir F6. Dans les deux modes, le meilleur niveau atteint s'affiche sur la page d'accueil.</p>
+
+
+    <p>
+	   <img class="screenshot" src="imageHomeTime.png" alt="accueilTime" title="accueilTime" /> 
+	   <img class="screenshot" src="imageGameTime.png" alt="jeuTime" title="jeuTime" /> 
+       <img class="screenshot" src="imageHomeInfiny.png" alt="accueilInfiny" title="accueilInfiny" /> 
+       <img class="screenshot" src="imageGameInfiny.png" alt="jeuInfiny" title="jeuInfiny" /> 
+       <img class="screenshot" src="imageWin.png" alt="victoire" title="victoire" /> 
+    </p>
+
+    <h2 id="rgpd">Gestion des données personnelles</h2>
+    Les seules données stockées sont relatives à la configuration courante (meilleur niveau, dernier mode utilisé). Elles ne sont ni exploitées ni envoyées à personne. Elles sont effacées si on supprime l'application.
+    <p>
+ 
+	</p>
+ 
+    </body>
+</html>
